@@ -1,0 +1,32 @@
+package NumerRaisedToNumber;
+
+public class NumberCounting 
+{
+int countAndPower(int n)
+{
+	int org=n;
+	int count=0;
+	while(n>0)
+	{
+		n=n/10;
+		count++;
+		
+	}
+	for(int i=1;i<=count;i++)
+	{
+		org=org*org;
+	}
+	System.out.println(org);
+	//return count;
+}
+//void power(int count,int n)
+//{
+//	int fr=1;
+//	for(int i=1;i<=count;i++)
+//	{
+//		fr=fr*n;
+//	}
+//	System.out.println(fr);
+//}
+//}
+

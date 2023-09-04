@@ -1,0 +1,15 @@
+package RaisedTopowerOfn;
+
+public class CheckingRaisedToPower 
+{
+void powenofN(int n)
+{
+	int res=1;
+	while(n<=0)
+	{
+		res=res*n;
+	}
+	System.out.println(res);
+}
+
+}

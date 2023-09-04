@@ -1,0 +1,8 @@
+package PrimeNumberPrinter;
+public class PimeNumber {
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

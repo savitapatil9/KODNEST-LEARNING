@@ -1,0 +1,18 @@
+package FibbonacciSeris;
+
+import java.util.Scanner;
+
+public class FibbonacciMain 
+{
+public static void main(String[] args)
+{
+	Scanner scan=new Scanner(System.in);
+	System.out.println("enter integer");
+	int n=scan.nextInt();
+	printFibonacciSeries(n);
+}
+public static void printFibonacciSeries(int n)
+{
+	
+} 
+}

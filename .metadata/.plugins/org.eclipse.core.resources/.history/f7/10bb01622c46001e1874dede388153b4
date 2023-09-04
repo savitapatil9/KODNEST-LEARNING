@@ -1,0 +1,21 @@
+package NumerRaisedToNumber;
+
+public class NumberCounting 
+{
+void countAndPower(int n)
+{
+	int count=0;
+	while(n>0)
+	{
+		n=n/10;
+		count++;
+		
+	}
+	for(int i=count;i<0;i--)
+	{
+		n=n*n;
+	}
+	System.out.println(n);
+}
+	
+}

@@ -1,0 +1,27 @@
+Create a program that calculates the sum of the digits of a number. The program should
+accept an integer 'n' as input.
+Sample Input: 12345
+Sample Output: 15
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter a number");
+int n=scan.nextInt();
+CalculateSum c1 = new CalculateSum();
+c1.calculateSumOfDigits(n);
+}
+}
+public class CalculateSum {
+public void calculateSumOfDigits(int n)
+{
+int sum=0;
+while(n>0)
+{
+int ld=n%10;
+sum=sum+ld;
+n=n/10;
+}
+System.out.println("Sum of digits is "+sum);
+}
+}

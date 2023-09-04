@@ -1,0 +1,8 @@
+package PalindromeNumber;
+public class CheckingPalindrome {
+	void palindrome(int n)
+	{
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package PalindromeNumber;
+public class PalindromeOfNumber {
+
+	public static void main(String[] args) 
+	{
+
+	}
+
+}

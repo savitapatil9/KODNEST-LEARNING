@@ -1,0 +1,16 @@
+package PalindromeNumber;
+
+import java.util.Scanner;
+
+public class PalindromeOfNumber {
+
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter integer");
+		int n=scan.nextInt();
+		CheckingPalindrome c=new CheckingPalindrome();
+		c.palindrome(n);
+	}
+
+}

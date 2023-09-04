@@ -1,0 +1,17 @@
+package PalindromeNumber;
+public class CheckingPalindrome {
+	void palindrome(int n)
+	{
+		int org=n;
+		int rev=0;
+		while(n>0)
+		{
+			int ld=n%10;
+			 rev=ld*10+ld;
+		
+		}
+		System.out.println(rev);
+	
+	}
+
+}

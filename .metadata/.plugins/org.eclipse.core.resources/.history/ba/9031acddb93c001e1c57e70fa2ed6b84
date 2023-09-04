@@ -1,0 +1,21 @@
+package practice;
+
+public class Roughwork {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int j=1;j<=5;j++) 
+		{
+			int n=1;
+			while(n<=5) 
+			{
+					System.out.print("Kodnest ");
+					n++;	
+			}
+			System.out.println();	
+		}
+
+		System.out.println("technologies");
+		
+	}
+	}
